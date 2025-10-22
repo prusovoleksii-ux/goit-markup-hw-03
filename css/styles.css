@@ -1,0 +1,77 @@
+body {
+    font-family: "Roboto", sans-serif;
+    size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    background-color: white;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #434455;
+}
+nav a {
+    color: #2e2f42;
+}
+
+.link:hover,
+.link:focus{
+    color:#404BBF
+}
+
+#order-service{
+    background-color: #2e2f42;
+    text-align: center;
+}
+
+#order-service button {
+    background-color: #4D5AE5;
+    color: white;
+}
+#order-service button:hover,
+#order-service button:focus,
+#order-service button:active{
+    background-color: #404BBF;
+}
+
+#values {
+    color: white;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 60px;
+    color: white;
+}
+h2 {
+    font-size: 36px;
+    text-align: center;
+    color:#2e2f42;
+}
+h3{
+    font-size: 20px;
+    color: #2e2f42;
+}
+
+#team-section {
+    background-color: #F4F4FD;
+}
+#team-section li {
+    background-color: white;
+}
+
+footer {
+    color: #E7E9FC;
+    background-color: #2e2f42;
+}
+#lower-logo{
+    color: #E7E9FC;
+}
+
+
+.logo {
+    color: #4D5AE5;
+}
