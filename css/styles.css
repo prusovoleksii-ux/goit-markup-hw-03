@@ -15,13 +15,14 @@ a {
     color: #434455;
 }
 
+.link{
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
 .address {
     font-style: normal;
     color: #434455;
-    letter-spacing: 0.02em;
-}
-.navigation {
-    color: #2e2f42;
     letter-spacing: 0.02em;
 }
 
@@ -72,8 +73,7 @@ h2 {
     text-align: center;
     color:#2e2f42;
 }
-
-.list-header, .port-header {
+.list-header{
     font-size: 20px;
     color: #2e2f42;
     font-weight: 500;
