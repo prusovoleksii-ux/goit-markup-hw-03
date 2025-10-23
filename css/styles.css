@@ -15,12 +15,14 @@ a {
     color: #434455;
 }
 
-.address .link {
+.address {
     font-style: normal;
     color: #434455;
+    letter-spacing: 0.02em;
 }
-.navigation .link {
+.navigation {
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -70,7 +72,8 @@ h2 {
     text-align: center;
     color:#2e2f42;
 }
-.list-header{
+
+.list-header, .port-header {
     font-size: 20px;
     color: #2e2f42;
     font-weight: 500;
@@ -108,15 +111,15 @@ h2 {
     font-size: 18px;
     line-height: 1.17;
 }
-.logo #lower {
+.logo .lower {
     color: #F4F4FD;
 }
-.logo #upper {
+.logo .upper {
     color: #2e2f42;
 }
-.logo #lower:hover,
-.logo #lower:focus,
-.logo #upper:hover,
-.logo #upper:focus{
+.logo .lower:hover,
+.logo .lower:focus,
+.logo .upper:hover,
+.logo .upper:focus{
     color: #4D5AE5;
 }
