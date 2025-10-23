@@ -1,3 +1,5 @@
+
+
 body {
     font-family: "Roboto", sans-serif;
     size: 16px;
@@ -5,7 +7,6 @@ body {
     color: #434455;
     background-color: white;
 }
-
 ul, ol {
     list-style-type: none;
 }
@@ -13,7 +14,12 @@ a {
     text-decoration: none;
     color: #434455;
 }
-nav a {
+
+.address .link {
+    font-style: normal;
+    color: #434455;
+}
+.navigation .link {
     color: #2e2f42;
 }
 
@@ -22,56 +28,95 @@ nav a {
     color:#404BBF
 }
 
-#order-service{
+.order-service{
     background-color: #2e2f42;
     text-align: center;
 }
-
-#order-service button {
+.order-service .order-button {
     background-color: #4D5AE5;
     color: white;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
-#order-service button:hover,
-#order-service button:focus,
-#order-service button:active{
+.order-service .order-button:hover,
+.order-service .order-button:focus,
+.order-service .order-button:active{
     background-color: #404BBF;
 }
 
-#values {
+.values .subtitle {
     color: white;
 }
 
-h1 {
+.content {
+    letter-spacing: 0.02em;
+    font-size: 16px
+}
+
+.page-title {
     font-size: 56px;
     line-height: 60px;
     color: white;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 h2 {
     font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     color:#2e2f42;
 }
-h3{
+.list-header{
     font-size: 20px;
     color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-#team-section {
+.team-section {
     background-color: #F4F4FD;
 }
-#team-section li {
+.team-section li {
     background-color: white;
 }
 
-footer {
-    color: #E7E9FC;
+.subtitle {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.footer {
     background-color: #2e2f42;
 }
-#lower-logo{
+.footer-text {
     color: #E7E9FC;
+    letter-spacing: 0.02em;
 }
 
-
 .logo {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.logo #lower {
+    color: #F4F4FD;
+}
+.logo #upper {
+    color: #2e2f42;
+}
+.logo #lower:hover,
+.logo #lower:focus,
+.logo #upper:hover,
+.logo #upper:focus{
     color: #4D5AE5;
 }
