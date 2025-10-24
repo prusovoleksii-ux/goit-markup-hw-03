@@ -15,16 +15,17 @@ a {
     color: #434455;
 }
 
-.link{
+.navigation .link{
     color: #2e2f42;
     letter-spacing: 0.02em;
     font-weight: 500;
 }
-.address .link {
+.address {
     font-style: normal;
     color: #434455;
     letter-spacing: 0.02em;
 }
+
 
 .link:hover,
 .link:focus{
