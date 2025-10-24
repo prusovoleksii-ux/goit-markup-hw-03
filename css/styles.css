@@ -20,7 +20,7 @@ a {
     letter-spacing: 0.02em;
     font-weight: 500;
 }
-.address {
+.address .link {
     font-style: normal;
     color: #434455;
     letter-spacing: 0.02em;
