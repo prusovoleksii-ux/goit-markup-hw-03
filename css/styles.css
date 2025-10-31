@@ -51,7 +51,9 @@ a {
 .header>.container {
     display: flex;
     justify-content: space-between;
-    padding: 24px 15px;
+    padding: 0 15px;
+}
+.header {
     border-bottom: 1px solid #e7e9fc
 }
 .navigation {
@@ -63,7 +65,7 @@ a {
 .header-menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .logo {
@@ -144,7 +146,7 @@ a {
     display: flex;
     gap: 24px;
 }
-.value-cards>li {
+.value-card {
     width: calc((100% - 72px)/4)
 }
 .value-cards .list-header {
@@ -154,10 +156,20 @@ a {
 
 /* #endregion values */
 
+
+/* #region team */
+
+.member-info {
+    padding: 32px 0;
+}
+
+/* #endregion team */
+
 .content {
     letter-spacing: 0.02em;
     font-size: 16px;
     margin: 8px 0 0 0;
+    text-align: center;
 }
 
 
@@ -178,7 +190,10 @@ h2 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin: 0;
+    margin-bottom: 8px;
+    text-align: center;
 }
+
 
 
 /* #region portfolio */
@@ -223,19 +238,14 @@ h2 {
 }
 .team-card {
     background-color: white;
-    padding: 0 0 32px;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px)/4)
 }
 .team-card>img {
-    margin-bottom: 32px;
     max-width: 100%
 }
-.team-card .list-header,
-.team-card .content {
-    text-align: center;
-}
+
 
 /* #endregion team */
 
