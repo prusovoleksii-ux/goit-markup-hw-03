@@ -210,20 +210,19 @@ h2 {
     gap: 24px;
 }
 .port-card {
-    margin-bottom: 48px;
+    row-gap: 48px;
     width: calc((100% - 48px)/3);
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
-    padding-bottom: 32px;
 }
 .port-card>img {
     max-width: 100%;
-    margin-bottom: 32px;
 }
-.port-card>.list-header,
-.port-card>.content {
-    margin-left: 16px;
+.port-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.port-info>.list-header,
+    margin-bottom: 8px;
 }
 
 /* #endregion portfolio */
@@ -274,7 +273,7 @@ h2 {
 }
 .footer .logo {
     display: inline-block;
-    display: inline-block;
+    margin-bottom: 16px;
 }
 /* #endregion footer */
 
