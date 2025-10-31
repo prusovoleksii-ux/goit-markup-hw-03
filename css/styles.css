@@ -65,7 +65,10 @@ a {
 .header-menu {
     display: flex;
     gap: 40px;
+}
+.menu-card {
     padding: 24px 0;
+
 }
 
 .logo {
