@@ -66,9 +66,9 @@ a {
     display: flex;
     gap: 40px;
 }
-.menu-card {
-    padding-top: 24px;
-    padding-bottom: 24px; 
+.menu-card .link {
+    display: block;
+    padding: 24px 0;
 }
 
 .logo {
