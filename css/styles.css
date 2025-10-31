@@ -67,8 +67,8 @@ a {
     gap: 40px;
 }
 .menu-card {
-    padding: 24px 0;
-
+    padding-top: 24px;
+    padding-bottom: 24px; 
 }
 
 .logo {
@@ -208,9 +208,9 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 .port-card {
-    row-gap: 48px;
     width: calc((100% - 48px)/3);
 }
 .port-card>img {
@@ -221,7 +221,7 @@ h2 {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.port-info>.list-header,
+.port-info>.list-header {
     margin-bottom: 8px;
 }
 
@@ -232,7 +232,7 @@ h2 {
 
 .team-section {
     background-color: #F4F4FD;
-    padding: 120px 0;
+    padding-top: 120px; padding-bottom: 120px;
 }
 .team-card-list{
     display: flex;
@@ -244,9 +244,7 @@ h2 {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px)/4)
 }
-.team-card>img {
-    max-width: 100%
-}
+
 
 
 /* #endregion team */
